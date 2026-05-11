@@ -156,14 +156,14 @@ curl -X DELETE http://localhost:8000/candidates/1 \
 
 | Feature | Reviewer | Admin |
 |---|---|---|
-| View candidate list | ✅ | ✅ |
-| View candidate detail | ✅ | ✅ |
-| Submit scores | ✅ | ✅ |
-| View own scores only | ✅ | — |
-| View all reviewer scores | ❌ | ✅ |
-| View internal notes | ❌ | ✅ |
-| Edit internal notes | ❌ | ✅ |
-| Delete (soft) candidates | ❌ | ✅ |
+| View candidate list | Y | Y |
+| View candidate detail | Y | Y |
+| Submit scores | Y | Y |
+| View own scores only | Y | — |
+| View all reviewer scores | N | Y |
+| View internal notes | N | Y |
+| Edit internal notes | N | Y |
+| Delete (soft) candidates | N | Y |
 
 **Security note:** Registration always hardcodes role to `reviewer`. Role is never accepted from the client request body.
 
