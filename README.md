@@ -11,7 +11,9 @@ An internal candidate scoring and review dashboard built for TechKraft's recruit
 - **Infrastructure:** Docker, Docker Compose
 
 ---
-
+### Test Credentials
+## **Email**: *admin@test.com* ; **password**: secret
+## **Email**: *user@test.com*;  **password**: secret
 ## Project Structure
 
 ```
