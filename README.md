@@ -13,7 +13,7 @@ An internal candidate scoring and review dashboard built for TechKraft's recruit
 ---
 ### Test Credentials (admin,user)
 ## **Email**: *admin@test.com* ; **password**: secret
-## **Email**: *user@test.com*;  **password**: secret
+## **Email**: *reviewer@test.com*;  **password**: secret
 ## Project Structure
 
 ```
